@@ -25,6 +25,8 @@ class PHSensor(Sensor):
 print("--- Lab Inventory System ---")
 sensor1 = TempSensor()
 sensor2 = PHSensor()
+sensor3 = TempSensor()
 sensor2.get_reading()
 sensor1.get_reading()
+sensor3.get_reading()
 
